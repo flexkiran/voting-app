@@ -10,8 +10,4 @@ spec:
   - name: postgres
     image: postgres:9.4
     ports:
-      - containerPort: 5432
-    resources:
-      limits:
-        memory: "128Mi"
-        cpu: "200m"
+     - containerPort: 5432
